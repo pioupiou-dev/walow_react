@@ -21,6 +21,8 @@ const styles = StyleSheet.create({
       elevation: 3,
       margin:12,
       backgroundColor: '#3E40EA',
+      height: 50,
+      elevation: 0,
     },
     text: {
       fontSize: 16,

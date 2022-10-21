@@ -26,8 +26,9 @@ export default function Separateur(props) {
           margin: 12,
           borderColor: isDarkMode ? 'white' : 'black',
           width: '28%',
+          opacity:.5
         }}></View>
-      <Text style={{alignItem: 'center', color: isDarkMode ? 'white' : 'black',}}>{text}</Text>
+      <Text style={{alignItem: 'center', color: isDarkMode ? 'white' : 'black',opacity:.5}}>{text}</Text>
       <View
         style={{
           borderWidth: 1.2,
@@ -35,6 +36,7 @@ export default function Separateur(props) {
           margin: 12,
           borderColor: isDarkMode ? 'white' : 'black',
           width: '28%',
+          opacity:.5
         }}></View>
     </View>
   );
@@ -46,4 +48,7 @@ const style = StyleSheet.create({
     justifyContent: 'space-between',
     marginTop: 30,
   },
+  line:{
+    
+  }
 });

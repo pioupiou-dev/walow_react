@@ -3,7 +3,6 @@ import { Appearance,Text } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Connexion from './src/components/Connexion';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Inscription from './src/components/Inscription';
 const Tab = createBottomTabNavigator();
@@ -60,7 +59,6 @@ const App = () => {
            </Tab.Screen>  
          </Tab.Navigator>
        </NavigationContainer>
-       
      );
     }
    }

@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     light:{
       fontSize: 30,
-      fontWeight: '600',
+      fontWeight: '400',
       color:'#3E40EA',
       marginTop:60,
       textAlign:'center',
