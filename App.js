@@ -6,12 +6,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Inscription from './src/components/Inscription';
-import { get } from 'react-native/Libraries/Utilities/PixelRatio';
 const Tab = createBottomTabNavigator();
 
 const App = () => {
     
-    const [colorScheme, setColorScheme] = useState(Appearance.getColorScheme());
+    const [color, setColorScheme] = useState(Appearance.getColorScheme());
     Appearance.addChangeListener(({colorScheme})=>{
         setColorScheme(colorScheme)
     });
@@ -37,7 +36,7 @@ const App = () => {
     
     
     
-   const scheme = colorScheme === 'dark'
+   const scheme = color === 'dark'
    const isConnected =   userId !== null
 
    if(isLoading){
