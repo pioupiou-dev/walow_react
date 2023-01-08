@@ -1,5 +1,5 @@
 import React,{ useEffect, useState }  from 'react'
-import {Text, View,ScrollView,SafeAreaView,BackHandler,} from 'react-native';
+import {Text, View,ScrollView,SafeAreaView,BackHandler} from 'react-native';
 import facebookImage from '../assets/resources/imgs/Facebookcopy.png'
 import google from '../assets/resources/imgs/google.png'
 import Button from './utils/Button';
